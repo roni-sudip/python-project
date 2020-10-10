@@ -7,7 +7,6 @@ print("Cloning Git Repo")
 if not os.path.exists("/project"):
     os.makedirs("/project")
 git.Git("/project").clone("https://github.com/a2z-ice/eureka-server")
-#os.system("chmod -R 775 /project/eureka-server/")
 os.chdir("/project/eureka-server/")
 
 print("Building Project")
