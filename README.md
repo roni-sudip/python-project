@@ -8,6 +8,6 @@ cd python-project
 python3 automate-project.py
 
 ## After successfully completed the script check from browser 
-http://192.168.0.122:8761/                    (use your machine IP)
+http://192.168.0.122:8761/                    (use your local machine IP)
 
 ## container log file can view in project folder
